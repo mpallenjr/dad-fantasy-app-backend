@@ -1,1 +1,4 @@
-GET http://localhost:3000/api_news_headlines.json
+### NFL NEWS WEB REQUEST (NEWS API)
+GET http://localhost:3000/nfl_news.json
+### NBA NEWS WEB REQUEST (NEWS API)
+GET http://localhost:3000/nba_news.json
