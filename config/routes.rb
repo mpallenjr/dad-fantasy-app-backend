@@ -10,5 +10,11 @@ Rails.application.routes.draw do
   get "rotowire_nba_news" => "rotowire_nba_news#index"
   get "rotowire_news" => "rotowire_news#index"
 
+  get "dynasty_nerds_news" => "dynasty_nerds_news#index"
+  get "ffa_news" => "ffa_news#index"
+  get "player_profiler_news" => "player_profiler_news#index"
+  get "sleeper_u_news" => "sleeper_u_news#index"
+
+
   
 end

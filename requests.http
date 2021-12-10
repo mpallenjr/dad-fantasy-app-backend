@@ -12,3 +12,13 @@ GET http://localhost:3000/rotowire_nfl_news
 GET http://localhost:3000/rotowire_nba_news
 ### ROTOWIRE RSS FEED FEATURED ARTICLES
 GET http://localhost:3000/rotowire_news
+
+
+### Fantasy Football Analytics RSS FEED
+GET http://localhost:3000/ffa_news
+### Dynasty Nerds RSS FEED 
+GET http://localhost:3000/dynasty_nerds_news
+### Sleeper U RSS FEED 
+GET http://localhost:3000/sleeper_u_news
+### Player Profiler RSS FEED
+GET http://localhost:3000/player_profiler_news
