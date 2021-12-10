@@ -22,3 +22,13 @@ GET http://localhost:3000/dynasty_nerds_news
 GET http://localhost:3000/sleeper_u_news
 ### Player Profiler RSS FEED
 GET http://localhost:3000/player_profiler_news
+
+
+
+
+### Hoops Hype NBA RSS FEED
+GET http://localhost:3000/hoops_hype_news
+### Hoop Doctors NBA RSS FEED
+GET http://localhost:3000/hoop_doctors_news
+### Basketball Insiders NBA RSS FEED
+GET http://localhost:3000/basketball_insiders_news
