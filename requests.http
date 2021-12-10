@@ -2,3 +2,13 @@
 GET http://localhost:3000/nfl_news.json
 ### NBA NEWS WEB REQUEST (NEWS API)
 GET http://localhost:3000/nba_news.json
+
+
+
+
+### ROTOWIRE RSS FEED NFL
+GET http://localhost:3000/rotowire_nfl_news
+### ROTOWIRE RSS FEED NBA
+GET http://localhost:3000/rotowire_nba_news
+### ROTOWIRE RSS FEED FEATURED ARTICLES
+GET http://localhost:3000/rotowire_news
