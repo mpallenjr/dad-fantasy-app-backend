@@ -1,0 +1,2 @@
+class ApiNewsHeadlinesController < ApplicationController
+end

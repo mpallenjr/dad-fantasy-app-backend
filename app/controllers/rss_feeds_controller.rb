@@ -1,0 +1,2 @@
+class RssFeedsController < ApplicationController
+end
