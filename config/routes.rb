@@ -21,5 +21,7 @@ Rails.application.routes.draw do
   get "hoop_doctors_news" => "hoop_doctors_news#index"
   get "basketball_insiders_news" => "basketball_insiders_news#index"
 
+  # TWITTER API Routes
+  get "filtered_keyword_tweets" => "filtered_keyword_tweets#index"
   
 end
