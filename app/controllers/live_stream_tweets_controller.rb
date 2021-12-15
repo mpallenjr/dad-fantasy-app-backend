@@ -23,8 +23,8 @@ require 'typhoeus'
 # Add or remove values from the optional parameters below. Full list of parameters can be found in the docs:
 # https://developer.twitter.com/en/docs/twitter-api/tweets/filtered-stream/api-reference/get-tweets-search-stream
 params = {
-  "expansions": "attachments.poll_ids,attachments.media_keys,author_id,entities.mentions.username,geo.place_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id",
-  "tweet.fields": "attachments,author_id,conversation_id,created_at,entities,geo,id,in_reply_to_user_id,lang",
+  # "expansions": "attachments.poll_ids,attachments.media_keys,author_id,entities.mentions.username,geo.place_id,in_reply_to_user_id,referenced_tweets.id,referenced_tweets.id.author_id",
+  "tweet.fields": "text",
   # "user.fields": "description",
   # "media.fields": "url", 
   # "place.fields": "country_code",
