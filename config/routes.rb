@@ -25,4 +25,7 @@ Rails.application.routes.draw do
   get "filtered_keyword_tweets" => "filtered_keyword_tweets#index"
   
   get "live_stream_tweets" => "live_stream_tweets#index"
+
+  get "live_stream_echos" => "live_stream_echos#index"
+  
 end

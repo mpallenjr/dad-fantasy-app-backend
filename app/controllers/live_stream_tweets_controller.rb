@@ -127,6 +127,8 @@ def stream_connect(params)
   @request = Typhoeus::Request.new(@stream_url, @options)
   @request.on_body do |chunk|
     puts chunk
+    File.open("out.txt", "w" ) {|f| f.write("#{chunk.encode('utf-8', :invalid => :replace, :undef => :replace, :replace => '_')
+      }") }
   end
   @request.run
 end

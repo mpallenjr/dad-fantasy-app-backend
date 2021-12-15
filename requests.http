@@ -37,3 +37,6 @@ GET http://localhost:3000/filtered_keyword_tweets
 
 ### Live Stream Tweets
 GET http://localhost:3000/live_stream_tweets
+
+###
+GET http://localhost:3000/live_stream_echos.json
