@@ -16,8 +16,8 @@ require 'typhoeus'
 @rules_url = "https://api.twitter.com/2/tweets/search/stream/rules"
 
 @sample_rules = [
-  { 'value': 'dog has:images', 'tag': 'dog pictures' },
-  { 'value': 'cat has:images -grumpy', 'tag': 'cat pictures' },
+  { 'value': 'dfs -is:retweet', 'tag': 'fantasy football' },
+  { 'value': 'nfl -is:retweet', 'tag': 'fantasy football' },
 ]
 
 # Add or remove values from the optional parameters below. Full list of parameters can be found in the docs:
