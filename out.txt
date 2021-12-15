@@ -1,1 +1,1 @@
-{"data":{"id":"1470958514373726209","text":"RT @bulbaasaur: my dog studied the blade and became a genshin impact character https://t.co/km3lBE4GnX"},"matching_rules":[{"id":"1470958291555659780","tag":"dog pictures"}]}
+{"data":{"id":"1470963134907260932","text":"RT @bulbaasaur: my dog studied the blade and became a genshin impact character https://t.co/km3lBE4GnX"},"matching_rules":[{"id":"1470960194351939589","tag":"dog pictures"}]}
