@@ -46,3 +46,7 @@ gem 'rexml'
 gem 'rss'
 
 gem 'open-uri'
+
+gem 'json'
+
+gem 'typhoeus'
