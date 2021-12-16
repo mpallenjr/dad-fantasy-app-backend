@@ -34,9 +34,20 @@ GET http://localhost:3000/basketball_insiders_news
 GET http://localhost:3000/filtered_keyword_tweets
 
 
+### Filtered Tweets by Keywork Params #2
+GET http://localhost:3000/filtered_keyword_2_tweets
+### Filtered Tweets by Keywork Params #3
+GET http://localhost:3000/filtered_keyword_3_tweets
+### Filtered Tweets by Keywork Params #4
+GET http://localhost:3000/filtered_keyword_4_tweets
+
+
 
 ### Live Stream Tweets
 GET http://localhost:3000/live_stream_tweets
 
-###
+### API CALL for live stream .txt
 GET http://localhost:3000/live_stream_echos
+
+
+### DESTROY CONNECTION

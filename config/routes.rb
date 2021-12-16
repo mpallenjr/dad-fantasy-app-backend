@@ -23,7 +23,10 @@ Rails.application.routes.draw do
 
   # TWITTER API Routes
   get "filtered_keyword_tweets" => "filtered_keyword_tweets#index"
-  
+  get "filtered_keyword_2_tweets" => "filtered_keyword_2_tweets#index"
+  get "filtered_keyword_3_tweets" => "filtered_keyword_3_tweets#index"
+  get "filtered_keyword_4_tweets" => "filtered_keyword_4_tweets#index"
+
   get "live_stream_tweets" => "live_stream_tweets#index"
 
   get "live_stream_echos" => "live_stream_echos#index"
