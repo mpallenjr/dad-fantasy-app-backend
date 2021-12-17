@@ -16,8 +16,8 @@ require 'typhoeus'
 @rules_url = "https://api.twitter.com/2/tweets/search/stream/rules"
 
 @sample_rules = [
-  { 'value': 'dfs -is:retweet', 'tag': 'fantasy football' },
-  { 'value': 'nfl -is:retweet', 'tag': 'fantasy football' },
+  { 'value': 'dfs -is:retweet -has:images', 'tag': 'fantasy football' },
+  { 'value': 'nfl -is:retweet -has:images', 'tag': 'fantasy football' },
 ]
 
 # Add or remove values from the optional parameters below. Full list of parameters can be found in the docs:
@@ -134,7 +134,7 @@ def stream_connect(params)
 end
 
 # Comment this line if you already setup rules and want to keep them
-setup_rules
+# setup_rules
 
 # Listen to the stream.
 # This reconnection logic will attempt to reconnect when a disconnection is detected.
