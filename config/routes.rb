@@ -23,3 +23,4 @@ Rails.application.routes.draw do
   get "filtered_keyword_3_tweets" => "filtered_keyword_3_tweets#index"
   get "filtered_keyword_4_tweets" => "filtered_keyword_4_tweets#index"
 
+end
