@@ -1,4 +1,5 @@
 class DynastyNerdsNewsController < ApplicationController
+  
   #Controller for RSS Feed from Dynasty Nerds.  This is for NFL specifically.  Running on backend to avoid CORS issues.
 
   def index

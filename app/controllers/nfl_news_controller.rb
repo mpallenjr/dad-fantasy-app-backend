@@ -1,4 +1,5 @@
 class NflNewsController < ApplicationController
+  
   # Index action will show all of the top headlines from the NEWS API based on the hardcoded search filter in the HTTP response below.  An API KEY would be required to use this feature in the app.  This generates NFL focused news headlines in the United States, in english.
 
   def index

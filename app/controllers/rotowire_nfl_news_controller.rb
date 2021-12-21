@@ -1,4 +1,5 @@
 class RotowireNflNewsController < ApplicationController
+  
   #Controller for RSS Feed from Rotowire.  This is for NFL specifically.  Running on backend to avoid CORS issues.
   
   def index

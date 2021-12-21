@@ -48,6 +48,3 @@ GET http://localhost:3000/live_stream_tweets
 
 ### API CALL for live stream .txt
 GET http://localhost:3000/live_stream_echos
-
-### DESTROY CONNECTION
-GET http://localhost:3000/disconnect_live_stream_tweets.json

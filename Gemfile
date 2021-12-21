@@ -37,16 +37,23 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+#Used for DB
 gem 'seed_dump'
 
+#Allows for get requests
 gem 'http'
 
+#XML
 gem 'rexml'
 
+#RSS Feeds
 gem 'rss'
 
+#Get Requests
 gem 'open-uri'
 
+#PARSE Tweet Feed
 gem 'json'
 
+#Works with JSON for Tweet Feed
 gem 'typhoeus'
